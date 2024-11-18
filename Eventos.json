@@ -1,0 +1,21 @@
+{
+  "Listagem": [
+    {
+      "Mapa": "lift",
+      "Events": ["Start Scene", "Click Button to Up", "Event lift shaking", "End Scene"]
+    },
+    {
+      "Mapa": "Balloon",
+      "Events": ["Start Scene", "Droped Bag", "Event Balloon Fall", "End Scene"]
+    },
+    {
+      "Mapa": "Cable Car",
+      "Events": ["Start Scene", "Closed Door", "Event Cablecar Stop", "End Scene"]
+    },
+    {
+      "Mapa": "Bridge",
+      "Events": ["Start Scene", "End Scene"]
+    }
+  ]
+}
+
