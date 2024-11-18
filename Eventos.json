@@ -14,7 +14,7 @@
     },
     {
       "Mapa": "Bridge",
-      "Events": ["Start Scene", "End Scene"]
+      "Events": ["Start Scene","Sound Effect", "End Scene"]
     },
     {
       "Mapa": "Storage",
