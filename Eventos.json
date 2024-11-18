@@ -10,11 +10,19 @@
     },
     {
       "Mapa": "Cable Car",
-      "Events": ["Start Scene", "Closed Door", "Event Cablecar Stop", "End Scene"]
+      "Events": ["Start Scene", "Close Door", "Event Cablecar Stop", "End Scene"]
     },
     {
       "Mapa": "Bridge",
       "Events": ["Start Scene", "End Scene"]
+    },
+    {
+      "Mapa": "Storage",
+      "Events": ["Start Scene","Open Door", "Store Item","Close Door", "End Scene"]
+    },
+    {
+      "Mapa": "Garden",
+      "Events": ["Start Scene","Grab Watering Can", "Watering The Plant", "End Scene"]
     }
   ]
 }
