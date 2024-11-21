@@ -1,0 +1,46 @@
+// TABLE PLAYER 
+CREATE TABLE player (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255),
+    age INT,
+    sex VARCHAR(10)
+);
+
+// TABLE PHOBIA
+CREATE TABLE phobia (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    player_id INT,
+    phobia_type VARCHAR(50),
+    phobic_level INT,
+    FOREIGN KEY (player_id) REFERENCES player(ID)
+);
+
+// TABLE SESSION
+CREATE TABLE session (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    player_id INT,                    
+    map_id INT,                      
+    start DATETIME,                    
+    end DATETIME,                    
+    active BOOLEAN,                   
+    FOREIGN KEY (player_id) REFERENCES player(ID),
+    FOREIGN KEY (map_id) REFERENCES maps(ID)    
+);
+
+// TABLE EVENT
+CREATE TABLE event (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    sessionID INT,
+    start DATETIME,
+    end DATETIME,
+    eventName VARCHAR(255),
+    FOREIGN KEY (sessionID) REFERENCES session(ID)
+);
+
+// TABLE MAP
+CREATE TABLE maps (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    mapName VARCHAR(100) NOT NULL,
+    phobia_id INT,        
+    FOREIGN KEY (phobia_id) REFERENCES phobia(ID) ON DELETE CASCADE
+);
