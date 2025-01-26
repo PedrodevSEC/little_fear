@@ -18,3 +18,10 @@
       - [Acesse aqui o Questionário SUS](https://drive.google.com/drive/folders/10MnQKz1eSMWmDA8biiHXu4ph0ICgOU9B?usp=sharing)
     * **Termo de Consentimento Livre e Esclarecido - TCLE (Google Drive):**
     [Acesse aqui o TCLE](https://drive.google.com/drive/folders/1SK8-auAClr53yDU1sr_lrwXVBeJ6Kb15?usp=sharing)
+
+---
+
+*Desenvolvido por Pedro Machado Araújo e Luiz Gustavo Lopes*  
+*Universidade: FURG*  
+*Curso: Engenharia de Computação*  
+*TCC: Utilização da Realidade Virtual como alternativa para o tratamento de Fobias Específicas*  
