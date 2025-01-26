@@ -22,6 +22,6 @@
 ---
 
 *Desenvolvido por Pedro Machado Araújo e Luiz Gustavo Lopes*  
-*Universidade: FURG*  
+*Universidade: Unversidade Federal do Rio Grande - FURG*  
 *Curso: Engenharia de Computação*  
 *TCC: Utilização da Realidade Virtual como alternativa para o tratamento de Fobias Específicas*  
